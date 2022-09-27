@@ -1,0 +1,4 @@
+NPM            : 5520120057
+NAMA           : Mikhael Adithia Kaian
+KELAS          : IF c-2020
+JURUSAN/PRODI  : Teknik Informatika
