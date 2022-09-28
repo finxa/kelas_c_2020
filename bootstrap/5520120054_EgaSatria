@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Boostrap demo!</title>
+</head>
+
+<body>
+    <div class="container" style="background: white">
+        <h1> Data Mahasiswa </h1>
+
+        <div class="row">
+            <div class="col-6 col-md-3" style="background: red">
+                baris 1
+            </div>
+            <div class="col-6 col-md-3" style="background: greenyellow">
+                baris 2
+            </div>
+            <div class="col-6 col-md-3" style="background: blue ">
+                baris 3
+            </div>
+            <div class="col-6 col-md-3" style="background: yellow">
+                baris 4
+            </div>
+        </div>
+
+        <table class="table-responsive">
+            <table class="table table-hover">
+                <thead>
+                    <tr>
+                        <th>NPM</th>
+                        <th>Nama</th>
+                        <th>Kelas</th>
+                        <th>alamat</th>
+                        <th>umur</th>
+                        <th>angkatan</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>5520120054</td>
+                        <td>Ega Satria</td>
+                        <td>IF - C</td>
+                        <td>btn graha pratama</td>
+                        <td>20</td>
+                        <td>2020</td>
+                    </tr>
+                    <tr>
+                        <td>5520120062</td>
+                        <td>Angga Rivian</td>
+                        <td>IF C 2020</td>
+                        <td>bumi resik</td>
+                        <td>20</td>
+                        <td>2020</td>
+                    </tr>
+                    <tr>
+                        <td>5520120090</td>
+                        <td>rizky</td>
+                        <td>joglo</td>
+                        <td>joglo</td>
+                        <td>21</td>
+                        <td>2020</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <form>
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                </div>
+                <div class="mb-3 col-md-6">
+                    <label for="exampleInputPassword1" class="form-label">Password</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1">
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+            <br></br>
+            <form class="row">
+                <div class="col-auto">
+                    <label for="exampleInputEmail1" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                </div>
+                <div class="col-auto">
+                    <label for="exampleInputPassword1" class="form-label">Password</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1">
+                </div>
+            </form>
+            <br></br>
+            <form class="form-horizontal">
+                <div class="mb-3 row">
+                    <label for="exampleInputEmail1" class="form-label col-md-2">Email address</label>
+                    <div class="col-md-10">
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    </div>
+                </div>
+                <div class="mb-3 row">
+                    <label for="exampleInputPassword1" class="form-label col-md-2">Password</label>
+                    <div class="col-md-10">
+                        <input type="password" class="form-control" id="exampleInputPassword1">
+                    </div>
+                </div>
+            </form>
+
+            <select class="form-control">
+              <option>One</option>
+              <option>Two</option>
+              <option>Three</option>
+            </select>
+            <textarea class="form-control"></textarea>
+
+            <form>
+                <div class="form-check">
+                    <input class="form-checl-input" type="checkbox" value="" id="flexcheckdefault">
+                    <label class="form-check-label" for="flexcheckdefault">
+                        Default checkbox
+                    </label>
+                </div>
+
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexcheckchecked" checked>
+                    <label class="form-check-label" for="flexcheckchecked">
+                      checked checkbox
+                  </label>
+                </div>
+            </form>
+
+            <form>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" value="" name="radio" id="flexradiodefault">
+                    <label class="form-check-label" for="flexradiodefault">
+                  default radio
+              </label>
+                </div>
+
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" value="" name="radio" id="flexradiochecked checked">
+                    <label class="form-check-label" for="flexradiochecked">
+                  checked radio
+              </label>
+                </div>
+            </form>
+    </div>
+    <br></br>
+    <br></br>
+    <br></br>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
